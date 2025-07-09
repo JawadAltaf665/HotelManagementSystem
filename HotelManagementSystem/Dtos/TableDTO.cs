@@ -1,6 +1,6 @@
 ﻿namespace HotelManagementSystem.Dtos
 {
-    public class TableDTO
+    public class TableDTO: BaseEntityDTO
     {
         public int Id { get; set; }
 

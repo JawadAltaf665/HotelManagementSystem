@@ -1,4 +1,7 @@
-﻿public class Order
+﻿using HotelManagementSystem.Models.ModelClasses;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+
+public class Order
 {
     public int Id { get; set; }
 
@@ -6,7 +9,7 @@
 
     public Table? Table { get; set; }
 
-    public string OrderItems { get; set; } = string.Empty; //JSON string format
+    public List<OrderItem> items { get; set; } //JSON string format
 
     public decimal TotalAmount { get; set; }
 
