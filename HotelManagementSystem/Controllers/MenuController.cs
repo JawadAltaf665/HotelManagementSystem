@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HotelManagementSystem.IAppService;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelManagementSystem.Controllers
@@ -7,5 +8,17 @@ namespace HotelManagementSystem.Controllers
     [ApiController]
     public class MenuController : ControllerBase
     {
+        private readonly IMenuAppService _menuAppService;
+
+        public MenuController(IMenuAppService menuAppService)
+        {
+            _menuAppService = menuAppService;
+        }
+
+        //[HttpGet("GetAllMenus")]
+        //public async Task<Response> GetAllMenusAsync()
+        //{
+        //    return await _menuAppService.GetAllMenusAsync();
+        //}
     }
 }
