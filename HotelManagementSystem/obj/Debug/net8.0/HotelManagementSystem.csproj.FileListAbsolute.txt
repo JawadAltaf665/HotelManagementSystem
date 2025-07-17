@@ -63,3 +63,4 @@ D:\Projects\HMS\HotelManagementSystem\obj\Debug\net8.0\refint\HotelManagementSys
 D:\Projects\HMS\HotelManagementSystem\obj\Debug\net8.0\HotelManagementSystem.pdb
 D:\Projects\HMS\HotelManagementSystem\obj\Debug\net8.0\HotelManagementSystem.genruntimeconfig.cache
 D:\Projects\HMS\HotelManagementSystem\obj\Debug\net8.0\ref\HotelManagementSystem.dll
+D:\Projects\HMS\HotelManagementSystem\obj\Debug\net8.0\HotelManagementSystem.sourcelink.json

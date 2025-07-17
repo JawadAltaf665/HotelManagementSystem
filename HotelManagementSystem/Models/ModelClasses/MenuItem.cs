@@ -8,10 +8,11 @@ public class MenuItem: BaseEntity
 
     public string Description { get; set; } = string.Empty;
 
+    public string? Category { get; set; }  // Optional: Drinks, Appetizer, etc.
+
     public decimal Price { get; set; }
 
     public string? ImageUrl { get; set; }
 
-    public string? Category { get; set; }  // Optional: Drinks, Appetizer, etc.
 
 }
